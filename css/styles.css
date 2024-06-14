@@ -327,12 +327,14 @@ h2.no-underline {
     }
     
     .header-buttons {
-        flex-direction: column;
-        align-items: flex-end;
+        flex-direction: row; /* 横方向に配置 */
+        align-items: center; /* 中央揃え */
+        justify-content: flex-end; /* 右寄せ */
+        width: auto; /* コンテンツの幅に合わせる */
     }
     
     .menu-btn {
-        margin-left: 0;
+        margin-left: 10px;
     }
     
     .nav-menu {
